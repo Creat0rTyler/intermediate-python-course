@@ -11,7 +11,7 @@ def main():
 
     if roll == 1:
       print(f'You rolled a {roll}! critial fail')
-    elif roll == 6:
+    elif roll == dice_size:
       print(f'You rolled a {roll}! Critial Success')
     else:
       print (f'You rolled a {roll}')
